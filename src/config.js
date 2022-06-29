@@ -5,7 +5,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.sol;
 
 // General metadata for Ethereum
-const namePrefix = 'Your Collection';
+const namePrefix = 'Your Collection'; // 'Jolappy Bird'
 const description = 'Remember to replace this description';
 const baseUri = 'ipfs://NewUriToReplace';
 
@@ -25,17 +25,18 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     // 생성하는 갯수
-    growEditionSizeTo: 30,
+    growEditionSizeTo: 300,
     // 레이어를 쌓는 순서
     //
     layersOrder: [
       { name: 'Background' },
-      { name: 'Object' },
-      { name: 'Object2' },
-      // { name: "Iris" },
-      // { name: "Shine" },
-      // { name: "Bottom lid" },
-      // { name: "Top lid" },
+      { name: 'Prop' },
+      { name: 'Body' },
+      { name: 'Eye' },
+      { name: 'Mouth' },
+      { name: 'Hair' },
+      { name: 'Dress' },
+      { name: 'Shoes' },
     ],
   },
 ];
