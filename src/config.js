@@ -29,14 +29,14 @@ const layerConfigurations = [
     // 레이어를 쌓는 순서
     //
     layersOrder: [
-      { name: 'Background' },
-      { name: 'Prop' },
-      { name: 'Body' },
-      { name: 'Eye' },
-      { name: 'Mouth' },
-      { name: 'Hair' },
-      { name: 'Dress' },
-      { name: 'Shoes' },
+      { name: 'One' },
+      { name: 'Two' },
+      { name: 'Three' },
+      { name: 'Four' },
+      { name: 'Five' },
+      { name: 'Six' },
+      // { name: 'Dress' },
+      // { name: 'Shoes' },
     ],
   },
 ];
